@@ -7,5 +7,19 @@ el enfoque de Desarrollo Guiado por Pruebas (TDD) junto con GitFlow para la gest
 - Tkinter (incluido en la instalación estándar de Python)
 ## Instalación
 1. Clona este repositorio:
- ```bash
- git clone https://github.com/AlfredoQuispeUbaldo/GestorTareas.git
+```
+bash
+git clone https://github.com/AlfredoQuispeUbaldo/GestorTareas.git
+```
+### Estructura del proyecto
+```
+gestor_tareas/
+├── tests/
+│	└── test_gestor_tareas.py
+├── src/
+│	├── logica
+│	│	└── test_gestor_tareas.py
+│	└── vista
+│	└── gui_gestor_tareas.py
+└── README.md
+```
